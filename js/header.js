@@ -8,6 +8,10 @@ export function header(currentName) {
       href: "../snake/index.html",
       title: "Snake",
     },
+    {
+      href: "../faq/index.html",
+      title: "Faq",
+    },
   ];
   let addLinks = "";
 

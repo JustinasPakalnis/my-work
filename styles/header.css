@@ -1,0 +1,32 @@
+.headerMain {
+  display: flex;
+  background-color: #e6e2d3;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.button {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  background-color: #dac292;
+  padding: 15px 20px;
+  transition: 0.3s;
+  width: 180px;
+  text-align: center;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #b9936c;
+}
+.image {
+  /* padding: 0.3rem; */
+  border-radius: 1rem;
+}
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+.active {
+  background-color: #887246;
+  text-decoration: underline;
+}

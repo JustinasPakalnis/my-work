@@ -10,26 +10,27 @@
   <body>
     <main>
       <form class="form">
-        <p class="form-title">Gyvates pasaulio dydis</p>
+        <p class="form-title">Snake and chicken world size:</p>
 
         <div class="form-content">
           <div class="form-element">
-            <label for="">Plotis</label>
+            <!-- <label for="">Plotis</label> -->
             <input type="number" value="10" min="1" max="20" step="1" />
             <p class="note">max: 15</p>
           </div>
-          <div class="form-element">X</div>
+          <div class="mark">X</div>
           <div class="form-element">
-            <label for="">Aukstis</label>
+            <!-- <label for="">Aukstis</label> -->
             <input type="number" value="10" min="1" max="20" step="1" />
             <p class="note">max: 15</p>
           </div>
           <div class="block">
-            <button>Perpiešti</button>
-            <div class="pagavai">
-              <p class="form-title">Pagavai chickeną kartų!</p>
-              <div class="pagavau" id="pagavau">0</div>
-            </div>
+            <button>Draw</button>
+          </div>
+          <div class="pagavai">
+            <p class="form-title2">
+              Eaten chickens count: <span class="pagavau" id="pagavau">0</span>
+            </p>
           </div>
         </div>
       </form>

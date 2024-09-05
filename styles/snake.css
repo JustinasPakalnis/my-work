@@ -11,12 +11,15 @@
 .form > .form-content {
   display: flex;
   gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
 }
 .form .form-element {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+}
+.mark {
+  font-size: 2.5rem;
 }
 .form label {
   color: #777;
@@ -71,14 +74,6 @@
 .block {
   display: flex;
 }
-.pagavau {
-  background-color: #999;
-  padding: 10px 50px;
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.pagavai {
-  border: 2px solid grey;
-  font-weight: bold;
+.form-title2 {
+  font-size: 2.5rem;
 }

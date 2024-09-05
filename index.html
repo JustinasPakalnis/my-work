@@ -8,7 +8,21 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <h1>labadiena su vistiena</h1>
-    <script type="module" src="./js/mains.js"></script>
+    <section class="container">
+      <h1>TIP Calculator</h1>
+      <div class="btnContainer">
+        <input type="text" placeholder="Bill" />
+      </div>
+      <select name="tip" id="tipAmount">
+        <option value="10">Good 10%</option>
+        <option value="15">Perfect 15%</option>
+        <option value="25">Amazing 25%</option>
+      </select>
+      <button class="btn">Calculate</button>
+      <p class="tip">Tip:</p>
+      <p class="total">Total:</p>
+    </section>
+
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

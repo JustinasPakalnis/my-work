@@ -12,6 +12,10 @@ export function header(currentName) {
       href: "../faq/index.html",
       title: "Faq",
     },
+    {
+      href: "../pop-up/index.html",
+      title: "Pop-Up",
+    },
   ];
   let addLinks = "";
 

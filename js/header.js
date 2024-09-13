@@ -16,6 +16,10 @@ export function header(currentName) {
       href: "../pop-up/index.html",
       title: "Pop-Up",
     },
+    {
+      href: "../dog_generator/index.html",
+      title: "Dog",
+    },
   ];
   let addLinks = "";
 

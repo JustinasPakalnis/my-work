@@ -5,6 +5,8 @@ export function tipCalculator() {
   const resultTotal = document.querySelector(".total");
   const tipValue = document.querySelector("#tipAmount");
   button.addEventListener("click", tipCalculator);
+  word.value = 0;
+  tipValue.value = 0;
   let bill = word.value;
   const tip = tipValue.value;
   console.log(bill);

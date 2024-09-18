@@ -10,8 +10,7 @@ body * {
 }
 body {
   font-family: sans-serif;
-  background-image: url(../assets/background.jpeg);
-  background-size: cover;
+  background-color: #a38954;
 }
 
 .container {

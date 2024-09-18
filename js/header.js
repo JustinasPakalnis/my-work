@@ -1,23 +1,23 @@
 export function header(currentName) {
   const links = [
     {
-      href: "../my-work/index.html",
+      href: "../index.html",
       title: "Main page",
     },
     {
-      href: "../my-work/snake/index.html",
+      href: "../snake/index.html",
       title: "Snake",
     },
     {
-      href: "../my-work/faq/index.html",
+      href: "../faq/index.html",
       title: "Faq",
     },
     {
-      href: "../my-work/pop-up/index.html",
+      href: "../pop-up/index.html",
       title: "Pop-Up",
     },
     {
-      href: "../my-work/dog_generator/index.html",
+      href: "../dog_generator/index.html",
       title: "Dog",
     },
   ];

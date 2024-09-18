@@ -2,13 +2,13 @@ export function tipCalculator() {
   const word = document.querySelector("input");
   const button = document.querySelector(".btn");
   const resultTip = document.querySelector(".tip");
-  const resultTotal = document.querySelector(".total");
+  let resultTotal = document.querySelector(".total");
   const tipValue = document.querySelector("#tipAmount");
   button.addEventListener("click", tipCalculator);
-  word.value = 0;
-  tipValue.value = 0;
+  // word.value = 0;
+
   let bill = word.value;
-  const tip = tipValue.value;
+  let tip = tipValue.value;
   console.log(bill);
   console.log(tip);
   resultTip.innerHTML = "Tip €" + (bill * (tip / 100)).toFixed(2);

@@ -35,7 +35,7 @@ export function header(currentName) {
   }
 
   const headerNav = `<header class="headerMain">
-      <img class="image" src="../my-work/favicon.ico" alt="Blur picture">
+      <img class="image" src="../favicon.ico" alt="Blur picture">
       <nav class="navigation">${addLinks}</nav>
     </header>`;
 

@@ -17,7 +17,7 @@ export function header(currentName) {
       title: "Pop-Up",
     },
     {
-      href: "../dog_generator/index.html",
+      href: "../my-work/dog_generator/index.html",
       title: "Dog",
     },
   ];
